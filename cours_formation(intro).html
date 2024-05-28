@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>page html d'entrainement</title>
+</head>
+<body>
+    <!--Un commentaire voila voici-->
+    <h1>Le titre principal</h1>
+    <p>Un paragraphe</p>
+
+    <!--une autre partie du cours(les titres et paragraphes) -->
+    <h1>Un titre de niveau 1</h1>
+    <h2>Un titre de niveau 2</h2>
+
+    <h3 id="ancre1">Un titre de niveau 3</h3>
+
+    <h4>Un titre de niveau 4</h4>
+    <h5>Un titre de niveau 5</h5>
+    <h6>Un titre de niveau 6</h6>
+    <h1>Titre super important</h1>
+    <h2>Titre important</h2>
+    <h3>Titre un peu moins important (sous-titre) </h3>
+    <h4>Titre pas trop important</h4>
+    <h5>Titre pas important</h5>
+    <h6>Titre vraiment pas important du tout</h6>
+
+    <p>Un premier paragraphe</p>
+    <p>Un autres paragraphe
+        je le dis et je le répète
+    </p>
+
+    <!--Espaes et retour a la ligne-->
+    <pre><h1>Je suis    un gros   titre</h1></pre>
+    <p>Je suis <br> le premier
+             paragrahe </p>
+    <p>HTML: Le HTML est un language de balisage</p>
+    <br>
+    <hr>
+    <pre>
+        CSS: Le CSS est un language de style 
+je suis au lieu
+    </pre>
+
+    <!-- Strong et em et mark -->
+    <p>Un petit paragraphe avec <strong>une partie très importante</strong></p>
+    <p>Un petit paragraphe avec <em>une partie relativement importante</em></p>
+    <p>Un autre paragraphe avec <mark>un contenu marqué</mark></p>
+
+    <!--Les listes en html-->
+    <!--les listes non-ordonnées-->
+    <ul>
+        <li>Pomme</li>
+        <li>Vélo</li>
+        <li>Guitare</li>
+    </ul>
+    <!--les listes ordonnées-->
+    <ol type="A">
+        <li>Introduction</li>
+        <li>Partie I</li>
+        <li>Partie II</li>
+        <li>Partie III</li>
+        <li>Conclusion</li>
+    </ol>
+    <!--les listes de définitions-->
+    <dl>
+        <dt>HTML</dt>
+        <dd>HTML signifie Hypertext Marker Language</dd>
+        <dt>MOI</dt>
+        <dd>MOI c'est moi, Daniel 😉</dd>
+    </dl>
+    <!--Les listes imbriquées-->
+    <ol type="1">
+        <li>Partie I
+            <ul>
+                <li>Définition</li>
+                <li>Auteurs</li>
+                <li>Exemples</li>
+            </ul>
+        </li>
+        <li>Parie II</li>
+        <li>Partie III</li>
+    </ol>
+
+    <!--Les liens-->
+    <!--Les liens externes-->
+        <p>Cliquez <a href="http://wikipédia.org">ici</a> pour vous rendre sur la page d'accueil de wikipédia</p>
+    <!--Les liens internes-->
+        <!--page de destination dans le mm dossier que celui de départ-->
+            <p>Lien vers la <a href="formulaire.html" target="_blank">page milieu</a></p>
+        <!--page de destination dans un sous-dossier par rapport à la page de départ-->
+            <p>Lien vers la <a href="Sous/sous.html">page sous</a></p>
+        <!--page de destination dans un dossier parent à celui de départ-->
+            <p>Lien vers la <a href="../parent.html" target="_blank">page parent </a></p>
+<hr>
+    <!--Les autres types de liens-->
+    <!--Les ancres-->
+    <p>Accès direct à notre <a href="#ancre1" target="_blank">ancre 1</a></p>
+    <p>Accès direct à notre <a href="#ancre2">ancre 2</a></p>
+    <h2 id="ancre2">Une seconde ancre</h2>
+    <!--les mailto-->
+    <p>M'envoyer <a href="mailto:quenumdaniel32@gmail.com"> un mail</a></p>
+    <!--les téléchargements-->
+    <p>Télécharger <a href="COURS WEB - DESIGN et CMS-IG-ENEAM.pdf" download="cours web design" target="_blank">le fichier du cours</a></p>
+    <p>Télécharger <a href="LES FRAMES.pdf">le fichier du cours: les frames </a></p>
+
+    <!--Les images en html-->
+    <h3>Des images</h3>
+    <img src="uac.jfif" alt="uac image">
+    <!--on vas créer une image cliquable-->
+    <p>
+        Vous souhaitez vous rendre vers un endroit magique ? Rien de plus simple, cliquez sur l'image cidessous :<br />
+        <a href="essaie.html" target="_blank">
+            <img src="D:\Images et Vidéos\Photos\IMG-20240228-WA0118.jpg" alt="Ma photo" title="Je me présente" />
+        </a>
+    </p>
+
+    <!--form-->
+    <form action="formulaire.html" method="get">
+        <p>
+        <input type="text" name="rechercher" />
+        <input type="submit" value="ok" />
+        </p>
+    </form>
+    
+    <!--Les acronymes-->
+    <p>Le <acronym title="eXtensible HyperText Markup Language" >XHTML</acronym> est le langage qui 
+        permet de créer les pages htypertextes ou pages web.</p>
+    <p>L' <acronym title="Ecole Nationale d'Economie Appliquée et de Managment">ENEAM</acronym> ,une école prestigieuse au Bénin, un centre d'exellence, 
+       renferme une filière recherchée et très importante: la <acronym title="Informatqiue de Gestion">IG</acronym>
+    </p>
+
+    
+    
+    <!---->
+
+
+<br><br><br><br><br><br><br><br>
+</body>
+</html>
